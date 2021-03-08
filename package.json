@@ -1,0 +1,40 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "NodeJS JWT Authentication API",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salazarpp/API.git"
+  },
+  "scripts": {
+    "start": "nodemon ./server.js",
+    "test": "mocha tests/**/*.*"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.19",
+    "ramda": "^0.27.1",
+    "request": "^2.88.0",
+    "rootpath": "^0.1.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "chai-as-promised": "^7.1.1",
+    "nodemon": "^2.0.7",
+    "sinon": "^9.2.4"
+  },
+  "bugs": {
+    "url": "https://github.com/salazarpp/API/issues"
+  },
+  "homepage": "https://github.com/salazarpp/API#readme",
+  "main": "server.js",
+  "author": "JL"
+}
